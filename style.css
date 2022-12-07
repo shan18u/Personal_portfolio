@@ -125,3 +125,29 @@ section{
 #menu.fa-times{
     transform:rotate(-180deg);
 }
+.navbar{
+    position: fixed;
+    top:2.0rem; right:2.5rem;
+    padding:1.1rem 2rem;
+    padding-right: 4rem;
+    z-index: 999;
+    border:.2rem solid var(--main-color);
+    border-radius: 1000px;
+    background:var(--primary-bg-color);
+    opacity: 0;
+    transform-origin: top right;
+    transform: scale(0);
+}
+
+.navbar.nav-toggle{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.navbar a{
+    
+    font-size: 2rem;
+    padding:0.3rem;
+    padding-right: 1rem;
+    color:var(--primary-text-color);
+}
