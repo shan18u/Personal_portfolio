@@ -107,3 +107,21 @@ section{
     color:var(--main-color);
     text-transform: uppercase;
 }
+#menu{
+    font-size: 2rem;
+    background:#0555ff;
+    color:#fff;
+    border-radius: 5rem;
+    height:5rem;
+    width:5rem;
+    text-align: center;
+    line-height: 5rem;
+    position: fixed;
+    top: 2rem; right:2rem;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#menu.fa-times{
+    transform:rotate(-180deg);
+}
