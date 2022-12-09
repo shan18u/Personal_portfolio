@@ -203,3 +203,7 @@ section{
 
     }
 }
+.navbar a:hover{
+    color:var(--main-color);
+    transform: translateX(1rem);
+}
