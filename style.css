@@ -151,3 +151,13 @@ section{
     padding-right: 1rem;
     color:var(--primary-text-color);
 }
+
+@media (max-width: 799px){
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        padding:1rem;
+        padding-right: 7rem;
+    
+    }
+}
