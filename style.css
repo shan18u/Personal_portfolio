@@ -191,3 +191,15 @@ section{
     animation: float-img 4s ease-in-out infinite;
 
 }
+@keyframes float-img {
+    0%{
+        transform: translateX(.2rem);
+    }
+    50% {
+        transform: translateY(-2rem);
+    }
+    100%{
+        transform: translateX(.2rem);
+
+    }
+}
