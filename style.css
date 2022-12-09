@@ -161,3 +161,14 @@ section{
     
     }
 }
+.navbar a:hover{
+    color:var(--main-color);
+    transform: translateX(1rem);
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
