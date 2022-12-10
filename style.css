@@ -238,3 +238,8 @@ section{
 .home .content h3 span{
     color: #0151ff;
 }
+.type {
+    display:inline-block;
+  
+    vertical-align: bottom;
+  }
