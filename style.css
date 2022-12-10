@@ -227,3 +227,14 @@ section{
     border-left: 10px solid #2e6efa;
     border-bottom: 10px solid transparent;
 }
+.home .content h3{
+    color:var(--primary-text-color);
+    font-size: 5rem;
+    margin-top: 20px;
+}
+
+
+
+.home .content h3 span{
+    color: #0151ff;
+}
