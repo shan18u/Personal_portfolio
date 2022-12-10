@@ -203,7 +203,27 @@ section{
 
     }
 }
-.navbar a:hover{
-    color:var(--main-color);
-    transform: translateX(1rem);
+.home .content{
+    flex:1 1 40rem;
+    padding:1rem;
+}
+.home .content .hello {
+    background: #2e6efa;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 3px 10px;
+    position: relative;
+    line-height: 26px;
+}
+.home .content .hello::after {
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 5px;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 10px solid #2e6efa;
+    border-bottom: 10px solid transparent;
 }
