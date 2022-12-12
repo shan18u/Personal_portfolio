@@ -271,3 +271,11 @@ section{
     content:" ";
     display:inline-block;
   }
+  @keyframes t{
+    90%,100% {width:100%}
+  }
+  
+  @keyframes c{
+    0%,100%{box-shadow:5px 0 0 #0000}
+    50%    {box-shadow:5px 0 0 white}
+  }
