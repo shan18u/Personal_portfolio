@@ -256,3 +256,18 @@ section{
     overflow: hidden;
     height:1.2em;
   }
+  .type span span {
+    width:0%;
+    max-width:max-content;
+    overflow: hidden;
+    height:inherit;
+    word-break:break-all;
+    animation:
+      c 0.5s infinite steps(1),
+      t 2s linear infinite alternate,
+      m 16s steps(4) infinite;
+  }
+  .type span span:before {
+    content:" ";
+    display:inline-block;
+  }
