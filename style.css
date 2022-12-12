@@ -243,3 +243,16 @@ section{
   
     vertical-align: bottom;
   }
+  h4{
+    font-size: 29px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:var(--primary-text-color);
+  }
+  
+  .type > span {
+    color: var(--main-color);
+    display:grid;
+    overflow: hidden;
+    height:1.2em;
+  }
