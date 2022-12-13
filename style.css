@@ -344,3 +344,30 @@ section{
     width: 95%;
 
 }
+.about .row .box:nth-child(1) .progress:nth-child(3) .bar span{
+    width: 80%;
+}
+
+.about .row .box:nth-child(1) .progress:nth-child(4) .bar span{
+    width: 65%;
+}
+
+.about .row .box:nth-child(1) .progress:nth-child(5) .bar span{
+    width: 75%;
+}
+
+.about .row .box:nth-child(2) .progress:nth-child(2) .bar span{
+    width: 98%;
+}
+
+.about .row .box:nth-child(2) .progress:nth-child(3) .bar span{
+    width: 67%;
+}
+
+.about .row .box:nth-child(2) .progress:nth-child(4) .bar span{
+    width: 75%;
+}
+
+.about .row .box:nth-child(2) .progress:nth-child(5) .bar span{
+    width: 60%;
+}
