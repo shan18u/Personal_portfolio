@@ -315,3 +315,32 @@ section{
 .about .row .box .progress{
     padding:1rem 0;
 }
+
+.about .row .box .progress h3{
+    font-size: 1.7rem;
+    color:var(--secondary-text-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .row .box .progress .bar{
+    height: 2.5rem;
+    border-radius: .5rem;
+    border:.2rem solid var(--main-color);
+    padding:.5rem;
+    margin:1rem 0;
+}
+
+.about .row .box .progress .bar span{
+    height: 100%;
+    border-radius: .3rem;
+    background-color: rgb(0 202 241);
+    display: block;
+    animation: animate-positive 18s;
+
+}
+
+.about .row .box:nth-child(1) .progress:nth-child(2) .bar span{
+    width: 95%;
+
+}
