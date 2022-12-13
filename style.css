@@ -283,3 +283,17 @@ section{
     100% {transform:translateY(-400%)}
   }
 
+  .home .content p{
+    padding:1rem 0;
+    color:var(--secondary-text-color);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
