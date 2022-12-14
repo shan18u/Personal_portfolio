@@ -24,5 +24,9 @@ $(window).on('scroll load',function(){
     }
 
   });
+  $('#theme-toggler').click(function(){
+    $(this).toggleClass('fa-sun');
+    $('body').toggleClass('dark-theme');
+  });
 
  
