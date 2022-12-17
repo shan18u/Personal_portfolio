@@ -450,3 +450,28 @@ section{
     color:var(--secondary-text-color);
     padding:1rem;
 }
+.services .box-container .box::before{
+    content: '';
+    position: absolute;
+    top:0; left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgb(0, 202, 241);
+    z-index: -1;
+    clip-path: circle(25% at 0 0);
+    opacity: .1;
+    transition: .3s;
+}
+
+.services .box-container .box:hover::before{
+    clip-path: circle(100%);
+}
+
+.portfolio .button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    
+}
