@@ -475,3 +475,18 @@ section{
     padding:1rem 0;
     
 }
+.portfolio .button-container .btn{
+    margin:1rem;
+    cursor: pointer;
+    
+}
+
+.portfolio .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    animation: animate-positive 2s;
+
+}
