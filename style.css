@@ -556,3 +556,24 @@ section{
     height: 20rem;
     object-fit: cover;
 }
+.blog .box-container .box .content{
+    padding:1.5rem;
+}
+
+.blog .box-container .box .content .info{
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    text-align: center;
+    position: relative;
+    font-size: 1.5rem;
+    color:var(--primary-text-color);
+    background:var(--secondary-bg-color);
+    padding:1rem;
+    margin-top: -4rem;
+    margin-bottom: 1rem;
+}
+
+.blog .box-container .box .content .info i{
+    color:var(--main-color);
+    padding:0 1rem;
+}
