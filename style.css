@@ -594,3 +594,26 @@ section{
     padding:.5rem 0;
     font-size: 1.5rem;
 }
+.contact .row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row form{
+    flex:1 1 40rem;
+    background: var(--primary-bg-color);
+    padding: 2rem;
+    margin:1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.contact .row .map{
+    flex:1 1 40rem;
+    margin:1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    border:2rem solid var(--primary-bg-color);
+    width:100%;
+}
