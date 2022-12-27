@@ -642,3 +642,23 @@ section{
 .contact .row form input:focus, .contact .row form textarea:focus{
     border-color: var(--main-color);
 }
+
+.contact .row form .inputBox input{
+    width:49%;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .row form .btn{
+    cursor: pointer;
+}
+
+.contact .box-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
