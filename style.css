@@ -1,7 +1,7 @@
 :root{
     --main-color:#9d2bff;
     --primary-bg-color:#fff;
-    --secondary-bg-color:#eee;
+    --secondary-bg-color:#fffbfb;
     --primary-text-color:#222;
     --secondary-text-color:#666;
     
@@ -19,10 +19,12 @@
     text-decoration: none;
     transition:all .3s cubic-bezier(.38,1.15,.7,1.12);
 }
+
 *::selection{
     background-color: var(--main-color);
     color:#fff;
 }
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -35,23 +37,24 @@ html::-webkit-scrollbar{
 html::-webkit-scrollbar-track{
     background-color: var(--secondary-bg-color);
 }
-
 html::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
 }
+
 body{
     background:var(--secondary-bg-color);
 }
 
 body.dark-theme{
-    --primary-bg-color:#353b54;
-    --secondary-bg-color:#171C32;
-    --primary-text-color:#fff;
-    --secondary-text-color:#eee;
+    --primary-bg-color:#414a71;
+    --secondary-bg-color:#0e215df5;
+    --primary-text-color:rgb(224 250 255);
+    --secondary-text-color:#fff;
 
     
     
 }
+
 section{
     min-height: 100vh;
     padding:1rem;
@@ -107,6 +110,7 @@ section{
     color:var(--main-color);
     text-transform: uppercase;
 }
+
 #menu{
     font-size: 2rem;
     background:#0555ff;
@@ -125,6 +129,7 @@ section{
 #menu.fa-times{
     transform:rotate(-180deg);
 }
+
 .navbar{
     position: fixed;
     top:2.0rem; right:2.5rem;
@@ -161,6 +166,7 @@ section{
     
     }
 }
+
 .navbar a:hover{
     color:var(--main-color);
     transform: translateX(1rem);
@@ -172,6 +178,7 @@ section{
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .home .image{
     flex:1 1 40rem;
     padding:1rem;
@@ -191,6 +198,9 @@ section{
     animation: float-img 4s ease-in-out infinite;
 
 }
+
+
+
 @keyframes float-img {
     0%{
         transform: translateX(.2rem);
@@ -203,10 +213,13 @@ section{
 
     }
 }
+
 .home .content{
     flex:1 1 40rem;
     padding:1rem;
 }
+
+ 
 .home .content .hello {
     background: #2e6efa;
     color: #fff;
@@ -227,6 +240,7 @@ section{
     border-left: 10px solid #2e6efa;
     border-bottom: 10px solid transparent;
 }
+
 .home .content h3{
     color:var(--primary-text-color);
     font-size: 5rem;
@@ -236,8 +250,9 @@ section{
 
 
 .home .content h3 span{
-    color: #0151ff;
+    color: rgb(20 217 255);
 }
+
 .type {
     display:inline-block;
   
@@ -256,6 +271,7 @@ section{
     overflow: hidden;
     height:1.2em;
   }
+  
   .type span span {
     width:0%;
     max-width:max-content;
@@ -271,6 +287,7 @@ section{
     content:" ";
     display:inline-block;
   }
+  
   @keyframes t{
     90%,100% {width:100%}
   }
@@ -279,11 +296,12 @@ section{
     0%,100%{box-shadow:5px 0 0 #0000}
     50%    {box-shadow:5px 0 0 white}
   }
+  
   @keyframes m{
     100% {transform:translateY(-400%)}
   }
 
-  .home .content p{
+.home .content p{
     padding:1rem 0;
     color:var(--secondary-text-color);
     font-size: 1.5rem;
@@ -297,6 +315,7 @@ section{
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .about .row .box{
     flex:1 1 40rem;
     background-color: var(--primary-bg-color);
@@ -341,15 +360,16 @@ section{
 }
 
 .about .row .box:nth-child(1) .progress:nth-child(2) .bar span{
-    width: 95%;
+    width: 100%;
 
 }
+
 .about .row .box:nth-child(1) .progress:nth-child(3) .bar span{
-    width: 80%;
+    width: 100%;
 }
 
 .about .row .box:nth-child(1) .progress:nth-child(4) .bar span{
-    width: 65%;
+    width: 100%;
 }
 
 .about .row .box:nth-child(1) .progress:nth-child(5) .bar span{
@@ -357,20 +377,21 @@ section{
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(2) .bar span{
-    width: 98%;
+    width: 100%;
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(3) .bar span{
-    width: 67%;
+    width: 100%;
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(4) .bar span{
-    width: 75%;
+    width: 100%;
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(5) .bar span{
-    width: 60%;
+    width: 75%;
 }
+
 .about .row .box .exp-box{
     padding:0 1.8rem;
     margin-top: 1rem;
@@ -386,8 +407,8 @@ section{
 
 .about .row .box .exp-box p{
     color:var(--secondary-text-color);
-    font-size: 1.5rem;
-    padding:1rem 0;
+    font-size: 1.6rem;
+    padding:2rem 0;
 }
 
 .about .row .box .exp-box::before{
@@ -399,6 +420,7 @@ section{
     width: 2rem;
     background: var(--main-color);
 }
+
 .about .download{
     background:var(--primary-bg-color);
     border-radius: .5rem;
@@ -408,6 +430,7 @@ section{
     padding-bottom: 3rem;
     margin:1rem;
 }
+
 .services .box-container{
     display: flex;
     align-items: center;
@@ -433,6 +456,7 @@ section{
     font-size: 2.5rem;
     color:var(--primary-text-color);
 }
+
 .services .box-container .box img{
     height:7rem;
     width:7rem;
@@ -450,6 +474,7 @@ section{
     color:var(--secondary-text-color);
     padding:1rem;
 }
+
 .services .box-container .box::before{
     content: '';
     position: absolute;
@@ -475,6 +500,7 @@ section{
     padding:1rem 0;
     
 }
+
 .portfolio .button-container .btn{
     margin:1rem;
     cursor: pointer;
@@ -535,6 +561,7 @@ section{
     font-size: 2.5rem;
     color:var(--primary-text-color);
 }
+
 .blog .box-container{
     display: flex;
     align-items: center;
@@ -556,6 +583,7 @@ section{
     height: 20rem;
     object-fit: cover;
 }
+
 .blog .box-container .box .content{
     padding:1.5rem;
 }
@@ -577,6 +605,7 @@ section{
     color:var(--main-color);
     padding:0 1rem;
 }
+
 .blog .box-container .box .content .title{
     color:var(--primary-text-color);
     display: block;
@@ -594,6 +623,7 @@ section{
     padding:.5rem 0;
     font-size: 1.5rem;
 }
+
 .contact .row{
     display: flex;
     justify-content: center;
@@ -617,6 +647,7 @@ section{
     border:2rem solid var(--primary-bg-color);
     width:100%;
 }
+
 .contact .row form .inputBox{
     display: flex;
     justify-content: space-between;
@@ -630,7 +661,7 @@ section{
     border-bottom: .1rem solid var(--secondary-text-color);
     text-transform: none;
     background:none;
-    color:var(--main-color);
+    color:#fff;
     width: 100%;
 }
 
@@ -662,6 +693,7 @@ section{
     flex-wrap: wrap;
     align-items: center;
 }
+
 .contact .box-container .box{
     flex:1 1 30rem;
     margin:1rem;
@@ -703,7 +735,7 @@ section{
 }
 
 .footer span{
-    color:var(--main-color);
+    color:#fff;
 }
 
 #theme-toggler{
@@ -724,6 +756,16 @@ section{
 #theme-toggler.fa-sun{
     transform:rotate(-180deg);
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
