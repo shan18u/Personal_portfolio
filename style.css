@@ -729,7 +729,7 @@ section{
     padding:2.5rem 1rem;
     text-align: center;
     font-size: 2rem;
-    color:var(--primary-text-color);
+    color:rgb(255 254 224 / 70%);
     background: var(--primary-bg-color);
     margin-top: 1rem;
 }
@@ -758,7 +758,11 @@ section{
 }
 
 
-
+.socail-media-icons{
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 
 
