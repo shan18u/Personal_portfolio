@@ -1,7 +1,7 @@
 :root{
     --main-color:#9d2bff;
-    --primary-bg-color:#fff;
-    --secondary-bg-color:#fffbfb;
+    --primary-bg-color:#f9f9f9;
+    --secondary-bg-color:#f3f2ef;
     --primary-text-color:#222;
     --secondary-text-color:#666;
     
@@ -45,8 +45,8 @@ body{
 }
 
 body.dark-theme{
-    --primary-bg-color:#414a71;
-    --secondary-bg-color:#0e215df5;
+    --primary-bg-color:#49506e;
+    --secondary-bg-color:#232837;
     --primary-text-color:rgb(224 250 255);
     --secondary-text-color:#fff;
 
@@ -191,7 +191,7 @@ section{
     box-shadow: 0 2.5rem 1rem rgba(0,0,0,.3);
     border-top: 2.7rem solid #0151ff;
     border-bottom: 2.7rem solid #2e6efa;
-    border-left: 2.7rem solid rgb(4 188 224);
+    border-left: 2.7rem solid rgb(0 202 241);
     border-right:2.73rem solid var(--main-color);
     border-radius: .5rem;
     animation: float-img 4s ease-in-out infinite;
@@ -242,14 +242,14 @@ section{
 
 .home .content h3{
     color:var(--primary-text-color);
-    font-size: 4rem;
+    font-size: 4.4rem;
     margin-top: 20px;
 }
 
 
 
 .home .content h3 span{
-    color: rgb(20 217 255);
+    color: #008ee2;
 }
 
 .type {
@@ -400,7 +400,7 @@ section{
 }
 
 .about .row .box .exp-box h3{
-    color:rgb(0 202 241);
+    color:#008ee2;
     font-size: 2rem;
 }
 
@@ -660,7 +660,7 @@ section{
     border-bottom: .1rem solid var(--secondary-text-color);
     text-transform: none;
     background:none;
-    color:#fff;
+    color:#000000;
     width: 100%;
 }
 
@@ -725,16 +725,16 @@ section{
 }
 
 .footer{
-    padding:2.5rem 1rem;
+    padding:2.5rem 10rem;
     text-align: center;
     font-size: 2rem;
-    color:rgb(255 254 224 / 70%);
+    color:#9b9696;
     background: var(--primary-bg-color);
     margin-top: 1rem;
 }
 
 .footer span{
-    color:#fff;
+    color:#000000;
 }
 
 #theme-toggler{
@@ -827,6 +827,7 @@ section{
     }
 
     .contact .row form .inputBox input{
+        
         width:100%;
     }
 
