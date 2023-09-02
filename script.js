@@ -2,11 +2,11 @@ $(document).ready(function(){
   
   //remove then lgiht mode atmaotic start
   
-   $('body').toggleClass('dark-theme');
+   //$('body').toggleClass('dark-theme');
   
 
   
-  
+   
   
   $('#menu').click(function(){
       $(this).toggleClass('fa-times');
