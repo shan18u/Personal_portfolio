@@ -189,10 +189,10 @@ section{
 .home .image img{
     height:40rem;
     box-shadow: 0 2.5rem 1rem rgba(0,0,0,.3);
-    border-top: 2.7rem solid #0151ff;
-    border-bottom: 2.7rem solid #2e6efa;
-    border-left: 2.7rem solid rgb(0 202 241);
-    border-right:2.73rem solid var(--main-color);
+    border-top: 2.0rem solid #0151ff;
+    border-bottom: 2.0rem solid #2e6efa;
+    border-left: 2.0rem solid rgb(0 202 241);
+    border-right:2.0rem solid rgb(0 202 241);
     border-radius: .5rem;
     animation: float-img 4s ease-in-out infinite;
 
