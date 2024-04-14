@@ -2,7 +2,7 @@ $(document).ready(function(){
   
   //remove then lgiht mode atmaotic start
   
-   //$('body').toggleClass('dark-theme');
+   $('body').toggleClass('dark-theme');
   
 
   
