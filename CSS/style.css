@@ -310,7 +310,7 @@ section{
 
 .about .row{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -372,7 +372,7 @@ section{
 }
 
 .about .row .box:nth-child(1) .progress:nth-child(5) .bar span{
-    width: 75%;
+    width: 71%;
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(2) .bar span{
@@ -384,7 +384,7 @@ section{
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(4) .bar span{
-    width: 75%;
+    width: 100%;
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(5) .bar span{
